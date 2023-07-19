@@ -1,3 +1,4 @@
+
 function detail1() {
     let FirstName = document.getElementById("fname1").innerHTML
     let LastName=document.getElementById("lname1").innerHTML

@@ -1,7 +1,7 @@
 .grid-container{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-    width: 100%;
+    /*display: flex;*/
+    /*grid-template-columns: 1fr 2fr 5fr;*/
+    /*width: 100%;*/
     background-color: beige;
     padding: 50px;
 }
@@ -11,12 +11,17 @@
     border:groove grey;
 }
 
-#item1,#item2,#item3{
+#item1{
+    display: flex;
     background-color: burlywood;
+    grid-template-columns: auto auto;
 }
 
-#item4{
+#item2{
+    display: grid;
     background-color: khaki;
+    grid-template-columns: auto auto auto auto;
+
 }
 #item5{
     background-color: sandybrown;
