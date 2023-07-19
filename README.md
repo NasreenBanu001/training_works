@@ -1,2 +1,1 @@
 # training_works
-s
